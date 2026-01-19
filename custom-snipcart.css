@@ -1,0 +1,74 @@
+.snipcart-modal {
+  background-color: #048600 !important; /* Dark background */
+  color: #000000 !important; /* Text color */
+}
+
+/* Target text and form inputs */
+.snipcart-modal legend,
+.snipcart-modal label,
+.snipcart-modal p,
+.snipcart-modal input,
+.snipcart-modal textarea {
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px;
+    background-color: #058610 !important;
+}
+
+.snipcart-input {
+    background-color: #ffffff !important; /* Dark input background */
+    border: 1px solid #555 !important;
+    color: #000000 !important;
+}
+
+.snipcart-button-primary {
+  background-color: #03c213 !important; /* Orange button */
+  color: #ffffff !important;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+:root {
+  --snipcart-color-primary: #ff6600; /* Primary color (buttons, highlights) */
+  --snipcart-color-secondary: #333; /* Secondary color */
+  --snipcart-color-text: #000000; /* Text color */
+  --snipcart-input-background: #ffffff; /* Input fields background */
+  --snipcart-button-border-radius: 4px; /* Button border radius */
+  --snipcart-color-error: #ff0000; /* Error messages */
+}
+
+.snipcart-item-line__container{
+  background-color: #058610;
+}
+
+.snipcart-summary-fees{
+  color: white;
+}
+
+.snipcart-cart__content{
+  background-color: #058610;
+}
+
+.snipcart-item-quantity__label{
+  background-color: #058610;
+}
+
+.snipcart-item-list .snipcart-item-line{
+  background-color: #058610;
+}
+
+.snipcart-item-description{
+  background-color: #058610;
+}
+
+.snipcart-cart--edit .snipcart-cart__content {
+  display: flex
+;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #058610;
+  background-color: #058610;
+  flex: 1;
+  margin: 0;
+}

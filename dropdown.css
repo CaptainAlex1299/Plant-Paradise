@@ -1,0 +1,91 @@
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    margin-bottom: 2px;
+    margin-left: 5px;
+  }
+  
+  .shoparrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    margin-bottom: 2px;
+    margin-left: 5px;
+  }
+  
+  .aboutarrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    margin-bottom: 2px;
+    margin-left: 5px;
+  }
+  
+  .dropdownplantcare{
+    display: none;
+    position: absolute; 
+    background-color: green; 
+    width: 180px; 
+    height: 100px; 
+    border-radius: 0px 0px 0px 0px;
+  }
+  
+  .dropdownabout{
+    display: none;
+    position: absolute; 
+    background-color: green; 
+    width: 180px; 
+    height: 70px; 
+    border-radius: 0px 0px 0px 0px;
+  }
+  
+  .dropdownshop{
+    display: none;
+    position: absolute; 
+    background-color: green; 
+    width: 180px;
+    height: 250px; 
+    border-radius: 0px 0px 0px 0px;
+  }
+  
+  .dropdownplantcare-toggled{
+  display: block;
+  z-index: 40;
+  }
+  
+  .dropdownabout-toggled{
+    display: block;
+    z-index: 40;
+    }
+  
+  .dropdownshop-toggled{
+    display: block;
+    z-index: 40;
+    }
+  
+    .nav-list{
+      color:white;
+      text-decoration: none;
+    }
+    
+    .nav-list:hover{
+      color: black;
+      cursor: pointer;
+    }
+  
+  .right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .right-toggled {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

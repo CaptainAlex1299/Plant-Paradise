@@ -1,0 +1,381 @@
+body{
+    background-color: #20310F;
+    background-color: rgb(25, 59, 7);
+    color: white;
+    font: serif;
+}
+
+#usernameblock{
+  position: absolute;
+  z-index: -2;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#usernameblock.toggled{
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+}
+
+.editimg{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.dropdown-library{
+  display: none;
+}
+
+.dropdown-library-toggled{
+  display: block;
+}
+
+.formstyle{
+  color: white;
+  background-color:#0d0000;
+}
+
+.nightmode{
+  color: rgb(250, 250, 250);
+  font: serif;
+}
+
+#navbarbg{
+    background-color: rgb(29, 80, 2);
+}
+
+.nav-link{
+    font-size: 20px;
+    color:white;
+}
+
+.nav-link2{
+  text-decoration:none;
+  font-size: 26px;
+  color:white;
+}
+
+.nav-link2:hover{
+  font-size: 26px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-link3{
+  text-decoration:none;
+  font-size: 20px;
+  color:white;
+}
+
+.nav-link3:hover{
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+  font-weight:400;
+}
+
+.nav-link:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.plantcare2{
+  position: absolute;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.toggled-navlist{
+  position: relative;
+  opacity: 1;
+  transition: 0.5s;
+  transform: translateX(0%);
+  text-decoration: underline;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.right-toggled {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.navbar-center1{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+.navbar-toggler{
+    background-color: rgb(102, 255, 0);
+}
+
+#navbarbtn{
+    width: 60px; 
+    height: 60px;
+}
+#logoimg{
+    margin-right: 20px;
+}
+
+.navimage{
+    width: 60px;
+    height: 60px;
+}
+
+.navbarend{
+    position: relative;
+    align-items: end;
+}
+
+  .navbar-list{
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    margin: auto; 
+    z-index: 0;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    background-color: #007500;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    border: solid 2px;
+    border-color: #f9ffc5;
+    border-radius: 0px 1px 1px 0px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .list-group-item{
+    color: white;
+    background-color: #004100;
+  }
+  
+  .toggled{
+    position: fixed; 
+    opacity: 1;
+    z-index: 2;
+    transition: 0.5s;
+    transform: translateX(0%);
+  }
+  .overformbtn{
+    position: relative;
+    font-size: 40px;
+    margin-right: 20px;
+  }
+
+  .homepageblock{
+    position: relative;
+    width: 100%; 
+    height: 600px;
+    display: grid;
+  }
+
+  .dirtborder{
+    background-color: #3b2509;
+    height: 100px;
+    border-top: solid 5px;
+    border-top-color: #415208;
+    border-bottom: solid 8px;
+    border-bottom-color: #381E09;
+  }
+
+  .homepageblockimg::before{
+    background-color: rgba(3, 209, 209, 0.781);
+    position: absolute;
+    background-image: url("images/bgimgage\ hompage.png");
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    content: '';
+    opacity: 0.8;
+    inset: 0;
+    
+  }
+
+  .backgrimage{
+    background-image: url(images/istockphoto.jpeg);
+    background-size: cover;
+    content: '';
+    inset: 0;
+  }
+
+  .center{
+    position: relative;
+    text-align: center;
+    top: 30%;
+    margin: 0 auto;
+    max-width: 1000px;
+    color: rgb(255, 255, 255);
+    isolation: isolate;
+  }
+
+  .shopheader{
+    position: relative;
+    background-color: #080000;
+    color: white;
+    margin: 0 auto;
+    top: 50%;
+    max-width: 500px;
+    max-height: 100px;
+  }
+
+  .blockcolor{
+    height: 210px;
+    min-width: 210px;
+    max-width: 1300px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    transition: transform .2s;
+    cursor: pointer;
+  }
+
+  .category{
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 244, 244);
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+
+  .blockcolor1:hover{
+    transform: scale(1.07);
+    background-color: rgba(3, 255, 70, 0.13);
+    box-shadow: 0 0 35px;
+    cursor: pointer;
+    color: rgb(82, 138, 82);
+  }
+
+  .blockcolor1{
+    height: 210px;
+    min-width: 150px;
+    max-width: 1300px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    transition: transform .2s;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    .blockcolor1{
+      height: 150px;
+    }
+    .category{
+      text-align: center;
+      background-color: black;
+      color: rgb(255, 244, 244);
+      margin: 0 auto;
+      margin-top: 70px;
+      font-size: 15px;
+    }
+}
+
+  .footorcolor{
+    color: white;
+  }
+
+  .cardcolor{
+    color: white; 
+    background-color: rgb(17, 66, 19);
+  }
+
+  .smallfont{
+    font-size: 15px;
+  }
+
+  .plantknowledge1{
+    width: 600px;
+    background-color: blue;
+  }
+
+  .buttonPlant{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 5px 5px;
+    transition: 0.5s;
+    color: white;
+    background-color: #080000;
+  }
+
+  .buttonPlant:hover{
+    background-color: rgba(3, 255, 70, 0.13);
+    box-shadow: 0 0 35px;
+    cursor: pointer;
+    color: rgb(66, 241, 66);
+  }
+
+  .scroll-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .scrollable-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 300px; /* Set width to control the visible area */
+  }
+  
+  .content-item {
+    min-width: 100px;
+    margin-right: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .scroll-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .left-btn {
+    left: 0;
+  }
+  
+  .right-btn {
+    right: 0;
+  }
+  
+  /* Hide buttons when they are not visible */
+  .scroll-btn:disabled {
+    display: none;
+  }
+  

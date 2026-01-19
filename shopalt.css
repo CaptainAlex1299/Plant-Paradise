@@ -1,0 +1,318 @@
+body{
+    background-color: #20310F;
+    background-color: rgb(25, 59, 7);
+    color: white;
+    font: serif;
+}
+.navimage{
+    width: 60px;
+    height: 60px;
+}
+
+  .homepageblock{
+    position: relative;
+    width: 100%; 
+    height: 700px;
+    display: grid;
+  }
+
+  .dirtborder{
+    background-color: #585D61;
+    max-height: 600px;
+    width: 100%;
+    max-width: 2200px;
+    margin: 0 auto; 
+  }
+
+  .center{
+    position: relative;
+    text-align: center;
+    top: 30%;
+    margin: 0 auto;
+    max-width: 1000px;
+    color: rgb(255, 255, 255);
+    isolation: isolate;
+  }
+
+  .category-header{
+    padding-left: 40px; 
+    margin-top: 20px;
+  }
+
+  .category{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 244, 244);
+    font-size: 17px;
+    display: block;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  .block-item:hover{
+    cursor: pointer;
+  }
+
+  .block-item:hover .button-position{
+    display: block;
+  }
+
+  .block-item{
+    position: relative;
+    height: 210px;
+    min-width: 210px;
+    max-width: 1300px;
+    margin-top: 30px;
+    margin-right: 5px;
+    transition: transform .2s;
+    cursor: pointer;
+  }
+
+  .button-position{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+  .add_to_cart{
+    color: white;
+    background-color: #1a4db3;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 100%;
+    
+  }
+
+  @media (max-width: 600px) {
+    .block-item{
+      height: 150px;
+    }
+    .category{
+      text-align: center;
+      background-color: black;
+      color: rgb(255, 244, 244);
+      margin: 0 auto;
+      font-size: 15px;
+    }
+}
+
+  .plant-scroller{
+    display: grid;
+    gap: 15px;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    background-color: #0e3800;
+    padding: 40px;
+    padding-top: 20px;
+  }
+
+  .plant-item{
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+    text-align: start;
+    background-color: #3ea05c60;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+
+  .content-size{
+    height: 125px;
+    width: 200px;
+    border-radius: 15px;
+  }
+
+  .plant-scroller::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .plant-scroller::-webkit-scrollbar-track {
+  background: #00330e;
+}
+
+/* Handle */
+.plant-scroller::-webkit-scrollbar-thumb {
+  background: #005a00;
+  border-radius: 13px;
+}
+
+/* Handle on hover */
+.plant-scroller::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scroll-btn {
+  background-color: #31d110;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transform: translateY(6.5%);
+  z-index: 6;
+  height: 300px;
+  opacity: 0.9;
+}
+
+.left-btn {
+  position: absolute;
+  left: 0;
+}
+
+.right-btn {
+  position: absolute;
+  right: 0;
+}
+
+/* Hide buttons when they are not visible */
+.scroll-btn:disabled {
+  display: none;
+}
+  
+#navbarbg{
+  background-color: rgb(29, 80, 2);
+}
+
+.nav-link{
+  font-size: 20px;
+  color:white;
+}
+
+.nav-link2{
+text-decoration:none;
+font-size: 26px;
+color:white;
+}
+
+.nav-link2:hover{
+font-size: 26px;
+color: black;
+cursor: pointer;
+font-weight: bold;
+}
+
+.nav-link3{
+text-decoration:none;
+font-size: 20px;
+color:white;
+}
+
+.nav-link3:hover{
+font-size: 22px;
+color: black;
+cursor: pointer;
+font-weight:400;
+}
+
+.nav-link:hover{
+
+color: black;
+cursor: pointer;
+}
+
+.navbar-center1{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+.navbar-toggler{
+    background-color: rgb(102, 255, 0);
+}
+
+#navbarbtn{
+    width: 60px; 
+    height: 60px;
+}
+#logoimg{
+    margin-right: 20px;
+}
+
+.navimage{
+    width: 60px;
+    height: 60px;
+}
+
+.navbarend{
+    position: relative;
+    align-items: end;
+}
+
+  .navbar-list{
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    margin: auto; 
+    z-index: 0;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    background-color: #007500;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    border: solid 2px;
+    border-color: #f9ffc5;
+    border-radius: 0px 1px 1px 0px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .plantcare2{
+    position: absolute;
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  .toggled-navlist{
+    position: relative;
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateX(0%);
+    text-decoration: underline;
+  }
+
+  .list-group-item{
+    color: white;
+    background-color: #004100;
+  }
+  
+  .toggled{
+    position: fixed; 
+    opacity: 1;
+    z-index: 2;
+    transition: 0.5s;
+    transform: translateX(0%);
+  }
+  .overformbtn{
+    position: relative;
+    font-size: 40px;
+    margin-right: 20px;
+  }
+
+  .footorcolor{
+    color: white;
+  }
+
+  .smallfont{
+    font-size: 15px;
+  }
+
+
+  @media (max-width: 600px) {
+    .scroll-btn {
+        display: none;
+        z-index: 0;
+    }
+}
